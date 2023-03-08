@@ -8,8 +8,13 @@ public class Loops {
         Scanner scanner= new Scanner(System.in);
         System.out.println("Ënter the limit: ");
         int x=scanner.nextInt();
-        for(int i=0;i<x;i++){
+//        for(int i=0;i<x;i++){
+//            System.out.println(i);
+//        }
+        int i=0;
+        while(i<x){
             System.out.println(i);
+            i++;
         }
     }
 }
