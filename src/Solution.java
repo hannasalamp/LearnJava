@@ -1,6 +1,9 @@
+import GettersAndSetters.GetAndSet;
+
 public class Solution {
     public static void main(String args[]){
-        System.out.println(" shamil vadhyaaru");
+        GetAndSet getset = new GetAndSet();
+        getset.name = "Hanna";
 
     }
 }
